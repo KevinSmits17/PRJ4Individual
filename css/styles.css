@@ -1,0 +1,63 @@
+/* Use this file to use your own styles*/
+
+/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Styles for the body */
+
+body {
+	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #5b5b5b;
+	background-color: #414040;
+}
+h2 {
+	font-size: clamp(28px, 3vh, 40px);
+	font-weight: 900;
+	font-family:  "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+h4 {
+	font-size: clamp(28px, 3vh, 40px);
+	font-weight: 900;
+	font-family:  open "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+/* Styles for custom classes in the document. (There are more, try to find them out!) */
+
+.resume-header {
+    background-color: #1C1C1C;
+	color: white
+}
+
+.resume-main {
+	background-color: #CECECE;
+    color: black
+}
+
+.resume-aside {
+	background-color: #fff0e0;
+    color:black
+}
+
+/* Styles for lists in the document */
+
+.biography-details li::before, .skill-list li::before {
+	content: ">";
+	font-weight: 800;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.biography-details li::before {
+	color: #FF0000;
+}
+
+.biography-details li, .skill-list li {
+	padding-left: 1em;
+}
+
+/* Styles for contact icons */
+
+.contact-icon {
+	height: 1em;
+	flex-basis: 1.4em;
+}
